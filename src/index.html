@@ -13,5 +13,50 @@
   <body>
     <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+      <fieldset class="field-set">
+        <legend>Personal information</legend>
+
+        <label class="form-field">
+          Surname:
+          <input
+            type="text"
+            class="field"
+            name="surname"
+            required
+            minlength="2"
+            maxlength="24"
+            autocomplete="off"
+          >
+        </label>
+
+        <label class="form-field">
+          Name:
+          <input
+            type="text"
+            class="field"
+            name="name"
+            required
+            minlength="2"
+            maxlength="24"
+            autocomplete="off"
+          >
+        </label>
+      </fieldset>
+      <fieldset class="field-set">
+        <legend>Registration</legend>
+
+      </fieldset>
+      <fieldset class="field-set">
+        <legend>An interesting fact about you!</legend>
+
+      </fieldset>
+      <fieldset class="field-set">
+        <legend>Additional info:</legend>
+
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
   </body>
 </html>
